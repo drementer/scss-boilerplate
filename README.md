@@ -2,12 +2,6 @@
 
 [SCSS](https://sass-lang.com/) için 7+1 dosya yapısı.
 
-## Menu
-
--   [Hızlı Başlangıç](#hızlı-Başlangıç)
--   [Geliştirici](#Geliştirici)
--   [Lisans](#lisans)
-
 ## Hızlı Başlangıç
 
 Terminal kullanarak indir
@@ -59,10 +53,3 @@ sass/
 |
 `– main.scss             # Ana Scss dosyası
 ```
-## Geliştirici
-
-[@drementer](https://github.com/drementer)
-
-## Lisans
-
-[MIT](https://choosealicense.com/licenses/mit/)
