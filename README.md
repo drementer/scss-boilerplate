@@ -44,6 +44,7 @@ sass/
 |   |– _variables.scss   # Scss değerleri
 |   |– _functions.scss   # Scss fonksiyonları
 |   |– _mixins.scss      # Scss mixinleri
+|   ...                  # Vesayre
 |
 |– vendors/
 |   |– _bootstrap.scss   # Bootstrap
