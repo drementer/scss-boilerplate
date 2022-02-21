@@ -1,3 +1,24 @@
+# Scss 7+1 Pattern
+
+[SCSS](https://sass-lang.com/) için 7+1 dosya yapısı.
+
+## Menu
+
+-   [Hızlı Başlangıç](#hızlı-Başlangıç)
+-   [Geliştirici](#Geliştirici)
+-   [Lisans](#lisans)
+
+## Hızlı Başlangıç
+
+Terminal kullanarak indir
+
+```bash
+  git clone https://github.com/drementer/Scss-7-1-Pattern.git
+```
+
+## Dosyalama
+
+```txt
 sass/
 |
 |– base/
@@ -37,3 +58,11 @@ sass/
 |
 |
 `– main.scss             # Ana Scss dosyası
+```
+## Geliştirici
+
+[@drementer](https://github.com/drementer)
+
+## Lisans
+
+[MIT](https://choosealicense.com/licenses/mit/)
