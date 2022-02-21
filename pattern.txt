@@ -10,7 +10,7 @@ sass/
 |   |– _carousel.scss    # Carousel
 |   ...                  # Vesayre
 |
-|– layout/
+|– layouts/
 |   |– _header.scss      # Header
 |   |– _footer.scss      # Footer
 |   ...                  # Vesayre
