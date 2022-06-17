@@ -16,43 +16,50 @@ Terminal kullanarak indir
 scss/
 |
 |– base/
+|   |– _all.scss         # Klasördeki tüm dosyaların toplandığı dosya
 |   |– _reset.scss       # Reset
 |   |– _typography.scss  # Tipografi
 |   ...                  # Vesayre
 |
 |– components/
+|   |– _all.scss         # Klasördeki tüm dosyaların toplandığı dosya
 |   |– _buttons.scss     # Butonlar
 |   |– _carousel.scss    # Carousel
 |   ...                  # Vesayre
 |
 |– layouts/
-|   |– _header.scss      # Header
+|   |– _all.scss         # Klasördeki tüm dosyaların toplandığı dosya
 |   |– _footer.scss      # Footer
+|   |– _header.scss      # Header
 |   ...                  # Vesayre
 |
 |– pages/
-|   |– _home.scss        # Ana sayfaya özel stiller
+|   |– _all.scss         # Klasördeki tüm dosyaların toplandığı dosya
 |   |– _contact.scss     # Contact sayfasına özel stiller
+|   |– _home.scss        # Ana sayfaya özel stiller
 |   ...                  # Vesayre
 |
 |– themes/
-|   |– _default.scss     # Varsayılan tema
+|   |– _all.scss         # Klasördeki tüm dosyaların toplandığı dosya
 |   |– _dark.scss      	 # Karanlık tema
+|   |– _default.scss     # Varsayılan tema
 |   ...                  # Vesayre
 |
 |– utils/
+|   |– _all.scss         # Klasördeki tüm dosyaların toplandığı dosya
 |   |– _variables.scss   # Scss değerleri
-|   |– _functions.scss   # Scss fonksiyonları
 |   |– _mixins.scss      # Scss mixinleri
+|   |– _functions.scss   # Scss fonksiyonları
 |   ...                  # Vesayre
 |
 |– vendors/
-|   |– _bootstrap.scss   # Bootstrap
-|   |– _jquery-ui.scss   # jQuery UI
+|   |– _all.scss         # Klasördeki tüm dosyaların toplandığı dosya
+|   |– _bootstrap.scss   # Bootstrap kütüphanesi
+|   |– _jquery-ui.scss   # jQuery UI kütüphanesi
 |   ...                  # Vesayre
 |
-|
 `– main.scss             # Ana Scss dosyası
+                         # Tüm alt klasörlerde bulunan tum '_all.scss' dosyalarının toplandığı dosya
 ```
 
 
