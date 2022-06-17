@@ -1,2 +1,24 @@
-desktop.ini
+# Npm
 package.lock.json
+
+# Sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# MacOS general
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Folder config file
+[Dd]esktop.ini
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
