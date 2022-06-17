@@ -1,4 +1,4 @@
-# Scss 7+1 Pattern
+# Scss Boilerplate
 
 [SCSS](https://sass-lang.com/) için 7+1 dosya yapısı.
 
