@@ -13,7 +13,7 @@ Terminal kullanarak indir
 ## Dosyalama
 
 ```txt
-sass/
+scss/
 |
 |– base/
 |   |– _reset.scss       # Reset
