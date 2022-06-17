@@ -3,7 +3,6 @@
 	"version": "1.0.0",
 	"homepage": "https://github.com/drementer/scss-boilerplate",
 	"description": "Scss için 7+1 dosya yapısı",
-	"main": "index.scss",
 	"keywords": [
 		"scss",
 		"boilerplate",
