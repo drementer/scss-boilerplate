@@ -62,6 +62,6 @@ scss/
                          # Tüm alt klasörlerde bulunan tum '_all.scss' dosyalarının toplandığı dosya
 ```
 
-
 ## Fikir Kaynağı
+
 [sass-boilerplate](https://github.com/KittyGiraudel/sass-boilerplate)
