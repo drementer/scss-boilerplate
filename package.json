@@ -1,0 +1,23 @@
+{
+	"name": "scss-boilerplate",
+	"version": "1.0.0",
+	"homepage": "https://github.com/drementer/scss-boilerplate",
+	"description": "Scss için 7+1 dosya yapısı",
+	"main": "index.scss",
+	"keywords": [
+		"scss",
+		"boilerplate",
+		"scss-boilerplate",
+		"folder-structure",
+		"pattern"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/drementer/scss-boilerplate.git"
+	},
+	"bugs": {
+		"url": "https://github.com/drementer/scss-boilerplate/issues"
+	},
+	"author": "drementer <klncarslanburak@gmail.com> (https://github.com/drementer)",
+	"license": "MIT"
+}
