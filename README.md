@@ -54,3 +54,7 @@ sass/
 |
 `– main.scss             # Ana Scss dosyası
 ```
+
+
+## Fikir Kaynağı
+[sass-boilerplate](https://github.com/KittyGiraudel/sass-boilerplate)
