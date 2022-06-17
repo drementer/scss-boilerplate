@@ -7,7 +7,7 @@
 Terminal kullanarak indir
 
 ```bash
-  git clone https://github.com/drementer/Scss-7-1-Pattern.git
+  git clone https://github.com/drementer/scss-boilerplate.git
 ```
 
 ## Dosyalama
