@@ -3,6 +3,10 @@
 	"version": "1.0.0",
 	"homepage": "https://github.com/drementer/scss-boilerplate",
 	"description": "Scss için 7+1 dosya yapısı",
+	"scripts": {
+		"build": "sass scss/main.scss css/main.min.css --style compressed --no-error-css",
+		"watch": "sass --watch scss/main.scss css/main.min.css --style expanded --error-css"
+	},
 	"keywords": [
 		"scss",
 		"boilerplate",
@@ -18,5 +22,8 @@
 		"url": "https://github.com/drementer/scss-boilerplate/issues"
 	},
 	"author": "drementer <klncarslanburak@gmail.com> (https://github.com/drementer)",
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"sass": "^1.52.3"
+	}
 }
