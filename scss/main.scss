@@ -1,29 +1,11 @@
-@charset "utf-8";
+@charset "UTF-8";
 
-/////////////////////////////////////
-// İmports
-
-@import 
-
-	// Vendors
-	"vendors/all",
-
-	// Utils
-	"utils/all",
-
-	// Base 
-	"base/all",
-
-	// Layouts
-	"layouts/all",
-
-	// Components
-	"components/all",
-
-	// Pages
-	"pages/all",
-
-	// Themes
-	"themes/all"
+@import
+  'vendors/all',
+  'utils/all',
+  'base/all',
+  'layouts/all',
+  'components/all',
+  'pages/all',
+  'themes/all'
 ;
-/////////////////////////////////////
