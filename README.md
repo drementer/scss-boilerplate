@@ -1,6 +1,6 @@
 # Scss Boilerplate
 
-[SCSS](https://sass-lang.com/) için 7+1 dosya yapısı.
+[Scss](https://sass-lang.com/) için 7+1 dosya yapısı.
 
 ## Kurulum
 
@@ -26,9 +26,9 @@ veya
   npm i sass
 ```
 
-### Kullanım
+## Kullanım
 
-Sass dosyaları ile projenizi geliştirdiğiniz sırada kullanmanız gerek komut
+[Scss](https://sass-lang.com/) dosyaları ile projenizi geliştirdiğiniz sırada kullanmanız gereken komut
 
 ```bash
   npm run watch
@@ -40,7 +40,7 @@ veya
   npx sass --watch scss/main.scss css/main.min.css --style expanded --error-css
 ```
 
-Sass dosyalarıyla olan geliştirme süreciniz bittiğinde yayın için kullanılacak komut
+[Scss](https://sass-lang.com/) dosyalarıyla olan geliştirme süreciniz bittiğinde yayın için kullanmanız gereken komut
 
 ```bash
   npm run build
@@ -50,6 +50,52 @@ veya
 
 ```bash
   npx sass scss/main.scss css/main.min.css --style compressed --no-error-css
+```
+
+## Visual Studio Code Eklentisi ile kullanımı
+
+Öncelikle hangi VS Code eklentisini kullandığınıza dikkat edin çünkü şuanda kullandığınız uzantı artık güncellenmiyor ve kaldırılmış olabilir.
+
+<img src="eski-vs-code-uzantisi.png" alt="Eski VS Code uzantısı görseli">
+
+Onun yerine geliştirilmeye devam eden ve güncel bir uzantıyla güncellemek isteyebilirsiniz.
+
+<img src="yeni-vs-code-uzantisi.png" alt="Yeni VS Code uzantısı görseli">
+
+O halde uzantımızıda kontrol etitğimize göre hadi başlayalım.
+Öncelikle yapmamız gereken bazı ayarlar var.
+
+Başlamadan önce yapmamız gereken ayarları nerden ve nasıl yapacağımız hakkında konuşalım.
+Yapacağımız ayarları kendi 'settings.json' dosyanız içerisine veya çalışma klasörünüzün içerisine '.vscode' klasörü içine koyacağınız 'settings.json' dosyasından yapacağız.
+
+### settings.json dosyama nasıl erişirim?
+
+Yapmanız gereken oldukça basit VS Code içerisinde 'f1' tuşuna basın ve çıkan ekrana sadece 'json' yazdığınızda zaten önerilerde en üstte 'settings.json' dosyasını göreceksiniz.
+
+<img src="komut-paneli-ise-ayar-dosyasi-acma.png" alt="Ayar dosyasını komut panelinden açmak">
+
+### settings.json dosyamı çalışma klasörüne nasıl koyarım?
+
+Aslında anlatacak pekde bir şey yok, '.vscode' klasörü oluşturun daha sonra içerisine 'settings.json' dosyası oluşturun. Daha sonrasında dosyanız bu şekilde görünecektir
+
+<img src="klasor-olusturarak-ayar-dosyası-acma.png" alt="Ayar dosyasını komut panelinden açmak">
+
+Artık ayarlara geçelim. Eklentimizin bir çok ayarı olsada bizim işime yaran sadece bir kaç tanesi.
+
+-   "format" çıktı dosyasının sıkıştırmasını belirler. Alabileceği değerler "compressed" veya "expanded".
+-   "extensionName" çıktı dosyasının uzantısını belirler. Ben burda '.min.css' tercih ettim çünkü [Scss](https://sass-lang.com/) ile olan geliştirmem bittiğinde alacağım çıktı sıkıştırılmış olacağından '.min' uzantısı dosyanın sıkıştırıldığını belli ediyor.
+-   "savePath" çıktı dosyasının kaydedileceği yolu belirler. Ben burda 'scss' klasörünün bir üst klasöründe bulunan 'css' klasörünü yol olarak belirledim.
+
+```json
+{
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".min.css",
+            "savePath": "~/../css"
+        }
+    ]
+}
 ```
 
 ## Dosyalama
@@ -107,3 +153,8 @@ scss/
 ## Fikir Kaynağı
 
 [sass-boilerplate](https://github.com/KittyGiraudel/sass-boilerplate)
+
+## Geliştirme kaynakları
+
+[Bulma Sass Dosyalaması](https://github.com/jgthms/bulma/tree/master/sass)
+[Bootstrap Scss Dosyalaması](https://github.com/twbs/bootstrap/tree/main/scss)
