@@ -56,11 +56,11 @@ veya
 
 Öncelikle hangi VS Code eklentisini kullandığınıza dikkat edin çünkü şuanda kullandığınız uzantı artık güncellenmiyor ve kaldırılmış olabilir.
 
-<img src="eski-vs-code-uzantisi.png" alt="Eski VS Code uzantısı görseli">
+<img src="img/eski-vs-code-uzantisi.png" alt="Eski VS Code uzantısı görseli">
 
 Onun yerine geliştirilmeye devam eden ve güncel bir uzantıyla güncellemek isteyebilirsiniz.
 
-<img src="yeni-vs-code-uzantisi.png" alt="Yeni VS Code uzantısı görseli">
+<img src="img/yeni-vs-code-uzantisi.png" alt="Yeni VS Code uzantısı görseli">
 
 O halde uzantımızıda kontrol etitğimize göre hadi başlayalım.
 Öncelikle yapmamız gereken bazı ayarlar var.
@@ -72,13 +72,13 @@ Yapacağımız ayarları kendi 'settings.json' dosyanız içerisine veya çalı�
 
 Yapmanız gereken oldukça basit VS Code içerisinde 'f1' tuşuna basın ve çıkan ekrana sadece 'json' yazdığınızda zaten önerilerde en üstte 'settings.json' dosyasını göreceksiniz.
 
-<img src="komut-paneli-ise-ayar-dosyasi-acma.png" alt="Ayar dosyasını komut panelinden açmak">
+<img src="img/komut-paneli-ise-ayar-dosyasi-acma.png" alt="Ayar dosyasını komut panelinden açmak">
 
 ### settings.json dosyamı çalışma klasörüne nasıl koyarım?
 
 Aslında anlatacak pekde bir şey yok, '.vscode' klasörü oluşturun daha sonra içerisine 'settings.json' dosyası oluşturun. Daha sonrasında dosyanız bu şekilde görünecektir
 
-<img src="klasor-olusturarak-ayar-dosyası-acma.png" alt="Ayar dosyasını komut panelinden açmak">
+<img src="img/klasor-olusturarak-ayar-dosyası-acma.png" alt="Ayar dosyasını komut panelinden açmak">
 
 Artık ayarlara geçelim. Eklentimizin bir çok ayarı olsada bizim işime yaran sadece bir kaç tanesi.
 
