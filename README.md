@@ -156,5 +156,5 @@ scss/
 
 ## Geliştirme kaynakları
 
-[Bulma Sass Dosyalaması](https://github.com/jgthms/bulma/tree/master/sass)
-[Bootstrap Scss Dosyalaması](https://github.com/twbs/bootstrap/tree/main/scss)
+* [Bulma Sass Dosyalaması](https://github.com/jgthms/bulma/tree/master/sass)
+* [Bootstrap Scss Dosyalaması](https://github.com/twbs/bootstrap/tree/main/scss)
