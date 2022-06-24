@@ -1,6 +1,6 @@
 {
 	"name": "scss-boilerplate",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"homepage": "https://github.com/drementer/scss-boilerplate",
 	"description": "Scss için 7+1 dosya yapısı",
 	"scripts": {
